@@ -23,7 +23,7 @@ const App=() =>{
     <NativeBaseProvider>
       <PPP/>
       <br/>
-      //ok
+     
       <Cal/>
       <br/>
       <Info/>
