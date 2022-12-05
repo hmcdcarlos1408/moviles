@@ -1,10 +1,11 @@
 import React from "react"
 import { createNativeStackNavigator} from '@react-navigation/native-stack'
 import { NavigationContainer } from '@react-navigation/native';
-import Home from "../components/Home";
-import LoginForm from "../components/LoginForm";
-import Profile from "../components/Profile";
-import Register from "../components/Register";
+import PPP from "../screens/Principal";
+
+
+
+
 
 
 
@@ -19,24 +20,11 @@ return (
                     }}>
 
             <Stack.Screen 
-            name='Home'
-            component={Home}
+            name='PPP'
+            component={PPP}
             />
-           <Stack.Screen 
-            name='LoginForm'
-            component={LoginForm}
-            />
+         
 
-
-            <Stack.Screen 
-            name='Register'
-            component={Register}
-            />
-            
-            <Stack.Screen 
-            name='Profile'
-            component={Profile}
-            />
           
         </Stack.Navigator>
     </NavigationContainer>

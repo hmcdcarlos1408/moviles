@@ -18,15 +18,20 @@ import PPP from "./screens/Principal";
 import Info from "./screens/Informacion";
 import Cal from "./screens/Calcular";
 
+
 const App=() =>{
   return (
     <NativeBaseProvider>
+<<<<<<< HEAD
+   
+=======
       <PPP/>
       <br/>
      
       <Cal/>
       <br/>
       <Info/>
+>>>>>>> 80b1215fb607a4db6a4b0d38115211075468a248
     </NativeBaseProvider>
     
 );
