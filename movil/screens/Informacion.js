@@ -1,5 +1,5 @@
 import React from "react";
-import { Center, Heading, Input, Button, Box, HStack, Text } from "native-base";
+import { Center, Heading, Input, Button, Box, HStack, Text, VStack } from "native-base";
 const Info = () => {
     return (
 <Center>   
@@ -7,9 +7,10 @@ const Info = () => {
           <Heading alignSelf="center">
             Informacion
           </Heading>
-          <Text alignSelf="center">
-              Explora la informacion que tenemos para ti
+          <Text alignSelf="left">
+              Impuestos
           </Text>
+          
           <Center>
             <br/>
           <HStack space={3}>
@@ -20,10 +21,28 @@ const Info = () => {
               IEPS
             </Button>
             <Button>
-              Calcular
+              ISR
+            </Button>
+            <Button>
+              ISAN
             </Button>
           </HStack>
-            </Center>
+          </Center>
+            <br/>
+          <Text alignSelf="left"> Tipos de contribuyentes </Text>
+          <Center>
+            <Box  ></Box>
+          <HStack space={3}>
+            <Button>
+              Persona Fisica 
+            </Button>
+            <Button>
+              Persona Moral
+            </Button>
+            </HStack>
+          </Center>
+          
+          
           
       </Box>
 </Center>
