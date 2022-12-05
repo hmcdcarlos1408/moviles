@@ -1,7 +1,9 @@
 import React from "react";
-import { Center, Heading, Input, Button, Box, HStack, Text, VStack } from "native-base";
+import { Center, Heading, Button, Box, HStack, Text, Modal } from "native-base";
+
 const Info = () => {
     return (
+
 <Center>   
       <Box p="2" width="350" height="500" bgColor="lightBlue.100" rounded="xl" shadow={2}>
           <Heading alignSelf="center">
@@ -10,8 +12,8 @@ const Info = () => {
           <Text alignSelf="left">
               Impuestos
           </Text>
-          
           <Center>
+          <Box rounded="xl" bgColor="primary.800" height="1" width="300"></Box>
             <br/>
           <HStack space={3}>
             <Button>
@@ -31,7 +33,8 @@ const Info = () => {
             <br/>
           <Text alignSelf="left"> Tipos de contribuyentes </Text>
           <Center>
-            <Box  ></Box>
+          <Box rounded="xl" bgColor="primary.800" height="1" width="300"></Box>
+            <br/>
           <HStack space={3}>
             <Button>
               Persona Fisica 
@@ -41,8 +44,6 @@ const Info = () => {
             </Button>
             </HStack>
           </Center>
-          
-          
           
       </Box>
 </Center>
