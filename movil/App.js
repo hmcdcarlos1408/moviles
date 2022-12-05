@@ -18,14 +18,11 @@ import PPP from "./screens/Principal";
 import Info from "./screens/Informacion";
 import Cal from "./screens/Calcular";
 
+
 const App=() =>{
   return (
     <NativeBaseProvider>
-      <PPP/>
-      <br/>
-      <Cal/>
-      <br/>
-      <Info/>
+   
     </NativeBaseProvider>
     
 );
